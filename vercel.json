@@ -1,32 +1,4 @@
 {
-<<<<<<< HEAD
-  "version": 2,
-  "builds": [
-    {
-      "src": "backend/api/index.js",
-      "use": "@vercel/node"
-    },
-    {
-      "src": "frontend/package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "dist",
-        "buildCommand": "cd frontend && npm install && npm run build",
-        "installCommand": "cd frontend && npm install"
-      }
-    }
-  ],
-  "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "/backend/api/index.js"
-    },
-    {
-      "src": "/assets/(.*)",
-      "dest": "/frontend/dist/assets/$1",
-      "headers": {
-        "Cache-Control": "public, max-age=31536000, immutable"
-=======
     "version": 2,
     "builds": [
       {
@@ -53,9 +25,8 @@
       {
         "src": "/(.*)",
         "dest": "frontend/dist/index.html"
->>>>>>> 0092573a5abcef0c37157ddbcbf68f2511fcd17b
       }
-    },
+    ,
     {
       "src": "/(.*)",
       "dest": "/frontend/dist/index.html",
