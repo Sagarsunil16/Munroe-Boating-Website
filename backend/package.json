@@ -1,10 +1,10 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "api/index.js",
   "scripts": {
-    "dev": "nodemon index.js",
-    "start": "node index.js"
+    "dev": "nodemon api/index.js",
+    "start": "node api/index.js"
   },
   "type": "module",
   "keywords": [],
@@ -15,7 +15,6 @@
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
-    "mongoose": "^8.14.1",
     "nodemailer": "^7.0.2"
   }
 }
