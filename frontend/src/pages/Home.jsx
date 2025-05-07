@@ -5,7 +5,8 @@ import Services from '@/components/Services'
 import Packages from '@/components/Packages'
 import Booking from '@/components/Booking'
 import Testimonials from '@/components/Testimonials'
-import { Contact } from 'lucide-react'
+import Contact from '@/components/Contact'
+
 const Home = () => {
   return (
     <div>
