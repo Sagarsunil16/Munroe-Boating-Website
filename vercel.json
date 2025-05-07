@@ -29,7 +29,7 @@
       },
       {
         "src": "/(.*)",
-        "dest": "/frontend/dist/index.html",
+        "dest": "/frontend/index.html",
         "headers": {
           "Cache-Control": "public, max-age=0, must-revalidate"
         }
