@@ -5,7 +5,7 @@ import express from "express";
 
      dotenv.config();
 
-     const app = express();
+     const app = express();//afa
 
      app.use(cors({ origin: process.env.FRONTEND_URL || "http://localhost:5173" }));
      app.use(express.json());
